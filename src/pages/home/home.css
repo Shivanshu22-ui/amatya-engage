@@ -1,0 +1,54 @@
+.homepage{
+    width: 100%;
+    background-color: #232323;
+}
+.head{
+    background-image: url(../../assests/fallback-img.png);
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+}
+.head h1{
+    font-size: 80px;
+    color: aliceblue;
+}
+.head .detail ul li{
+    list-style: none;
+    font-size: 12px;
+    padding-right: 15px;
+    color: #747474;
+}
+.head .detail ul li.br{
+    border-right: 1px solid #747474;
+}
+.head .detail p{
+    color: white;
+    font-weight: 100;
+    line-height: 30px;
+    font-size: 15px;
+}
+.head .detail .about{
+    line-height: 0;
+    font-size: 13px;
+}
+.head .homebtn button{
+    outline: none;
+    border: 1px solid #FF4E4E;
+    background-color: transparent;
+    color: #FF4E4E;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 14px;
+    transition: 0.5s;
+}
+.head .homebtn button:hover{
+    background-color: #FF4E4E;
+    color: #232323;
+    font-weight: 600;
+}
+
+.homepage .recommend h3{
+    font-size: 20px; 
+    color: white;
+    margin-top: 50px;
+}

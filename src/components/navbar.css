@@ -1,0 +1,21 @@
+.navbar{
+    background-color:  #131313;
+    height: 100vh;
+    position: fixed;
+    left: 3.2%;
+    top: 0;
+    overflow: hidden;
+}
+.navbar ul{
+    justify-content: flex-start;
+}
+.navbar ul li{
+    list-style: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.navbar ul li:hover{
+    transform: scale(1.2);
+}

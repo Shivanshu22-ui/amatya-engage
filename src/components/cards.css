@@ -1,0 +1,36 @@
+.movieCard {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.movieCard img{
+    transition: 0.5s;
+}
+.movieCard .movieDetail {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  transform: translateY(30px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.movieCard .movieDetail h1{
+    font-size: 24px;
+}
+.movieCard .movieDetail p{
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.movieCard:hover.movieCard img{
+    filter: brightness(30%);
+}
+.movieCard:hover.movieCard .movieDetail{
+    opacity: 1;
+    transform: translateY(1px);
+}
